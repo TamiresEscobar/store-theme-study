@@ -52,9 +52,9 @@ const ShelfCustom = ({ items }) => {
         });
     }
     if (
-      items.collectionId === undefined ||
-      items.collectionId === "" ||
-      (!items.collectionId && items.categoryId === undefined || items.categoryId === '' || !items.categoryId)
+      items?.collectionId === undefined ||
+      items?.collectionId === "" ||
+      (!items?.collectionId && items?.categoryId === undefined || items?.categoryId === '' || !items?.categoryId)
     ) {
       client
         .query({

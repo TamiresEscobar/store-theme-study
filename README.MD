@@ -6,7 +6,7 @@ As demais branchs devem ser atualizadas com a develop.
 
 ***- Testar atualizações.***
 Em caso de teste em todas as ramificações, testar na banch develop.
-Usar ws: https://updateDevelop--corelabiz.myvtex.com
+Usar ws: https://updatedevelop--corelabiz.myvtex.com
 
 ***- Vendor and name:***
 Foi gerado novas configurações para o uso.
@@ -23,4 +23,4 @@ da pagina que deseja testar.
 ex: corelabiz.store-tami@0.x:store.custom#nome-da-pagina.
 
 *** VTEX LINK ***
-Para testar loja atualizada, rodar vtex link na ws: https://updateDevelop--corelabiz.myvtex.com
+Para testar loja atualizada, rodar vtex link na ws: https://updatedevelop--corelabiz.myvtex.com
