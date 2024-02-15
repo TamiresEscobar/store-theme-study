@@ -11,7 +11,7 @@ import ButoonAddToCart from "../ButtonAddtoCart/index";
 
 import styles from "../../styles/components/ShelfCustom/styles.css";
 
-
+import BadgePrice from '../BadgePrice/index'
 
 const ShelfCustom = ({ items }) => {
   const [colectSchemaInfos, setColectSchemaInfos] = useState(items);
@@ -155,7 +155,9 @@ const ShelfCustom = ({ items }) => {
                           />
                         </div>
                         <span className={styles.contentBadgePrice}>
-                          EconomizeR4 xx,xx
+                          <BadgePrice
+                          itemsCustom={item}
+                          />
                         </span>
                       </div>
                     </div>

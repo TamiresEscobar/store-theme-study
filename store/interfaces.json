@@ -4,5 +4,8 @@
     },
     "button-add-to-cart-custom":{
         "component": "ButtonAddtoCart"
+    },
+    "badge-price": {
+        "component": "BadgePrice"
     }
 }

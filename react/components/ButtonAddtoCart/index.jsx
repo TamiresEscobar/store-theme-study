@@ -17,7 +17,6 @@ const ButtonAddtoCart = ({ valor }) => {
   const [label, setLabel] = useState({ labelText: `Item` });
 
   const [productDetailsItem, setProductDetailsItem] = useState({});
-  console.log("🚀 ~ ButtonAddtoCart ~ productDetailsItem:", productDetailsItem);
   const selectedItemQuantity = numericStepper.quantityNumericStepper;
 
   useEffect(() => {
