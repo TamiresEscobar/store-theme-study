@@ -12,6 +12,7 @@ import ButoonAddToCart from "../ButtonAddtoCart/index";
 import styles from "../../styles/components/ShelfCustom/styles.css";
 
 
+
 const ShelfCustom = ({ items }) => {
   const [colectSchemaInfos, setColectSchemaInfos] = useState(items);
   const client = useApolloClient();
@@ -59,10 +60,11 @@ const ShelfCustom = ({ items }) => {
       client
         .query({
           query: getProducts,
-          variables: { collection: "141" },
+          variables: { collection: "141"  },
         })
         .then(async ({ data }) => {
           const products = await data?.products;
+
           setProductId(products);
         });
     }
