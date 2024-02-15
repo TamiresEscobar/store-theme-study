@@ -1,18 +1,30 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-    
-       "flex-layout.row#deals",
-       "__fold__",
-       "rich-text#shelf-title",
-       "flex-layout.row#shelf",
-       "info-card#home",
-       "flex-layout.row#shelfCustom-one",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.mobile"
     ]
+  },
+  "responsive-layout.desktop": {
+    "children":[
+      "flex-layout.row#carousel-one",
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      // "info-card#home",
+      "flex-layout.row#shelfCustom-one",
+     "rich-text#question",
+     "rich-text#link",
+     "newsletter"
+    ],
+    "title": "HOME - LAYOUT DESKTOP"
+  },
+  // carousel one
+  "flex-layout.row#carousel-one":{
+    "children":["list-context.image-list#demo"],
+    "title": "Carousel one - home"
   },
  
   "list-context.image-list#demo": {
@@ -46,16 +58,22 @@
       "blockClass": "carousel"
     }
   },
+// end carousel one
+
+// shelf one
+
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Title shelf one"
   },
   "flex-layout.row#shelf": {
     "children": [
       "list-context.product-list#demo1"
-    ]
+    ],
+    "title": "shelf one"
   },
   "list-context.product-list#demo1": {
     "blocks": [
@@ -68,6 +86,8 @@
       "orderBy": "OrderByTopSaleDESC"
     }
   },
+
+
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
@@ -80,6 +100,8 @@
       "blockClass": "shelf"
     }
   },
+
+  // banner clarece
   "info-card#home": {
     "props": {
       "id": "info-card-home",

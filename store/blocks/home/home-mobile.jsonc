@@ -1,0 +1,17 @@
+{
+    "responsive-layout.mobile": {
+        "children": [
+            "list-context.image-list#demo",
+            "flex-layout.row#deals",
+            "__fold__",
+            "rich-text#shelf-title",
+            "flex-layout.row#shelf",
+            "info-card#home",
+            "flex-layout.row#shelfCustom-one",
+            "rich-text#question",
+            "rich-text#link",
+            "newsletter"
+        ],
+        "title": "HOME - LAYOUT MOBILE "
+    }
+}

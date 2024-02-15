@@ -73,7 +73,8 @@
     "vtex.device-detector": "0.x",
     "vtex.product-context": "0.x",
     "vtex.order-manager": "0.x",
-    "vtex.order-items": "0.x"
+    "vtex.order-items": "0.x",
+    "vtex.search": "2.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
